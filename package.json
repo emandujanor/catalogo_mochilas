@@ -2,10 +2,11 @@
     "name": "catalogo-mochilas",
     "version": "1.0.0",
     "scripts": {
-        "build": "babel src -d lib"
+        "build": "babel js/app.js -d public"
     },
     "devDependencies": {
-        "babel-cli": "^6.26.0"
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1"
     },
     "dependencies": {
         "jquery": "^3.2.1"
